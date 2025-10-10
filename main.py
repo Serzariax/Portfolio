@@ -17,7 +17,7 @@ def get_base64_image(image_path):
 # Load images (CAPACITI logo placeholder; replace with actual logo)
 background_image ="https://images.pexels.com/photos/333850/pexels-photo-333850.jpeg" #"https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg"
 image_base64 = get_base64_image(background_image)
-profile_image = "C:/Users/Xolela.Solomon/Documents/Projects/Solomon/assets/images/profile.jpg" #"https://thumbs.dreamstime.com/b/professional-male-silhouette-profile-icon-light-green-circle-person-insilhouette-man-business-suit-tie-avatar-contact-user-358839794.jpg"
+profile_image = "assets/images/profile.jpg" # Use a local image that exists in the workspace
 profile_image_base64 = get_base64_image(profile_image)#image_pro_base64 = get_base64_image(profile_image)
 # Define CAPACITI-inspired professional color palette
 st.markdown(f"""
