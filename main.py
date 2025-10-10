@@ -269,7 +269,7 @@ Python, Streamlit (for the user interface), OpenAI / NLP APIs for text generatio
 
 Impact:
 The project demonstrates how AI can simplify and enhance the job application process by helping users craft compelling, professional resumes in minutes. It bridges the gap between automation and personalization — empowering users to focus on showcasing their potential rather than formatting documents.""")
-    st.markdown("[Live Demo](https://github.com/Serzariax/airesumeBuilder)")
+    st.markdown("[Live Demo](https://five-panel-19326201.figma.site/)")
     st.markdown('</div>', unsafe_allow_html=True)
 
 with tabs[3]:
