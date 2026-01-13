@@ -194,82 +194,70 @@ with tabs[1]:
     st.markdown('</div>', unsafe_allow_html=True)
 
 with tabs[2]:
-    st.markdown('<div class="content">', unsafe_allow_html=True)
-    
-    st.header("Featured Projects")
-    st.subheader("Project 1: Route Optimizer for the Transport Sector")
-    st.write("""
-       The Route Optimizer is an intelligent system designed to streamline logistics and transportation by calculating the most efficient delivery or travel routes. It leverages algorithms that analyze multiple factors such as distance, traffic conditions, delivery time windows, and vehicle capacity to minimize operational costs and maximize efficiency.
+    st.header("🚀 Featured Projects")
+    st.write(
+        "A selection of projects demonstrating my expertise in AI, machine learning, cybersecurity "
+    )
 
-The project was developed for the transport sector, where route planning directly affects fuel consumption, delivery time, and overall resource utilization. The system integrates data from multiple sources and applies optimization techniques such as Dijkstras algorithm, A* search, or genetic algorithms  to produce real-time route recommendations.
+    # -------- Project 1 --------
+    with st.container():
+        col1, col2 = st.columns([3, 1])
 
-Key Features:
+        with col1:
+            st.subheader("📍 Route Optimizer for the Transport Sector")
+            st.write(
+                "An intelligent route optimization system designed to improve logistics efficiency "
+                "by calculating optimal delivery paths based on distance, traffic conditions, time "
+                "constraints, and vehicle capacity. The system applies graph-based algorithms to "
+                "reduce fuel consumption, delivery time, and operational costs."
+            )
+            st.markdown(
+                "**Tech Stack:** Python, Streamlit, Pandas, NumPy, Google Maps API / OpenStreetMap, NetworkX"
+            )
 
-Dynamic route calculation based on live or simulated traffic data.
+        with col2:
+            st.markdown("[ GitHub](https://github.com/Serzariax/RouteOptimizer)")
 
-Cost and distance optimization to reduce travel time and fuel usage.
+    st.divider()
 
-Support for multiple stops and delivery points.
+    # -------- Project 2 --------
+    with st.container():
+        col1, col2 = st.columns([3, 1])
 
-Custom constraints (vehicle load, delivery priority, or time limits).
+        with col1:
+            st.subheader(" Sentiment Analysis Dashboard")
+            st.write(
+                "A data-driven NLP dashboard that analyzes public sentiment from text data such as "
+                "social media posts, reviews, or surveys. The application classifies sentiment and "
+                "visualizes trends, enabling organizations to monitor brand perception and make "
+                "data-informed decisions."
+            )
+            st.markdown(
+                "**Tech Stack:** Python, Streamlit, Pandas, NLP (NLTK / spaCy / Transformers), Plotly / Matplotlib"
+            )
 
-Interactive map visualization for route inspection.
+        with col2:
+            st.markdown("[ GitHub](https://github.com/Serzariax/Sentiment-Analysis-Dashboard)")
 
-Tech Stack:
-Python, Streamlit (for the web interface), Google Maps API / OpenStreetMap, Pandas, NumPy, and possibly a graph library like NetworkX for pathfinding.
+    st.divider()
 
-Impact:
-This project demonstrates how AI and algorithmic optimization can be applied to solve real-world logistical challenges, improving productivity and reducing transport costs for businesses.""")
-    st.markdown("[Live Demo](https://github.com/Serzariax/RouteOptimizer)")
-    st.subheader("Project 2: Sentiment Analysis Dashboard")
-    st.write("""
-        The Sentiment Analysis Dashboard is a data driven web application that analyzes and visualizes public opinions, emotions, and attitudes expressed in text data such as social media posts, customer reviews, or survey responses. It applies Natural Language Processing (NLP) and machine learning techniques to classify text into sentiment categories (positive, negative, neutral) and presents results through an interactive dashboard.
+    # -------- Project 3 --------
+    with st.container():
+        col1, col2 = st.columns([3, 1])
 
-The project was designed to help organizations monitor public perception, track brand reputation, and gain actionable insights from large volumes of unstructured text data.
+        with col1:
+            st.subheader(" AI Resume Builder")
+            st.write(
+                "An AI-powered web application that automates resume creation using natural language "
+                "processing. It generates ATS-friendly resumes tailored to specific roles, offering "
+                "real-time suggestions, keyword optimization, and export options in multiple formats."
+            )
+            st.markdown(
+                "**Tech Stack:** Python, Streamlit, OpenAI / NLP APIs, Pandas, python-docx, fpdf"
+            )
 
-Key Features:
-
-Real-time sentiment classification using pretrained NLP models (e.g., VADER, TextBlob, or transformer-based models like BERT).
-
-Data visualization of sentiment trends over time using interactive charts and graphs.
-
-Word clouds and keyword frequency analysis for quick insight into dominant themes.
-
-Filtering and search capabilities for exploring specific topics or timeframes.
-
-Integration with social media APIs (like Twitter or Reddit) or CSV uploads for flexible data input.
-
-Tech Stack:
-Python, Streamlit (for the dashboard interface), Pandas, Matplotlib / Plotly for visualization, and NLP libraries such as NLTK, spaCy, or Hugging Face Transformers.
-
-Impact:
-The dashboard provides an intuitive way to transform raw text data into meaningful business intelligence. It enables decision makers to understand customer sentiment in real-time and adjust strategies accordingly  whether for marketing, product development, or crisis management.""")
-    st.markdown("[Live Demo](https://github.com/Serzariax/Sentiment-Analysis-Dashboard)")
-    st.subheader("Project 3: AI Resume Builder")
-    st.write("""
-        The AI Resume Builder is an intelligent web application that automates the process of creating professional, tailored resumes using artificial intelligence and natural language processing (NLP). It helps users generate, format, and customize resumes based on their skills, experience, and career goals eliminating the need for manual editing and design.
-
-The system analyzes user input (such as job titles, achievements, or keywords) and uses machine learning models to recommend strong phrasing, highlight relevant skills, and ensure that the resume aligns with ATS (Applicant Tracking System) standards. It can also generate resumes in multiple formats like PDF, DOCX, and Markdown, complete with a clean, modern layout.
-
-Key Features:
-
-AI-powered text generation for resume sections (summary, experience, skills).
-
-Real-time suggestions and keyword optimization for specific job roles.
-
-Export options for multiple formats (PDF, DOCX, TXT).
-
-Smart formatting and design templates.
-
-Option to import or parse existing resumes for editing or enhancement.
-
-Tech Stack:
-Python, Streamlit (for the user interface), OpenAI / NLP APIs for text generation, Pandas for data handling, and libraries like python-docx and fpdf for document creation.
-
-Impact:
-The project demonstrates how AI can simplify and enhance the job application process by helping users craft compelling, professional resumes in minutes. It bridges the gap between automation and personalization empowering users to focus on showcasing their potential rather than formatting documents.""")
-    st.markdown("[Live Demo](https://five-panel-19326201.figma.site/)")
-    st.markdown('</div>', unsafe_allow_html=True)
+        with col2:
+            st.markdown("[ Live Demo](https://five-panel-19326201.figma.site/)")
 
 with tabs[3]:
     st.header(" Technical Skills")
