@@ -342,7 +342,7 @@ with tabs[4]:
 
     with col1:
         st.subheader("🔗 LinkedIn")
-        st.markdown("[Xolela Solomon](https://www.linkedin.com/in/xolela-solomon-b8229515b/)")
+        st.markdown("[Xolela Solomon](https://www.linkedin.com/in/xolela-solomon-b8229515b)")
 
     with col2:
         st.subheader("💻 GitHub")
