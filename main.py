@@ -176,7 +176,7 @@ with tabs[0]:
     st.markdown('<div class="home-content">', unsafe_allow_html=True)
     st.markdown(f'<h1>Xolela Solomon Portfolio</h1>', unsafe_allow_html=True)
     st.markdown(f'<img src="data:image/jpeg;base64,{profile_image_base64}" class="profile-img">', unsafe_allow_html=True)
-    st.markdown('<p>I am a visionary AI/ML enthusiast and CAPACITI Tech Career Accelerator graduate, pioneering cutting-edge tech innovations.</p>', unsafe_allow_html=True)
+    st.markdown('<p>I am a visionary cybersecurity and AI/ML enthusiast and a CAPACITI Tech Career Accelerator graduate, driven to pioneer innovative, secure technology solutions that protect and advance modern digital systems.</p>', unsafe_allow_html=True)
     download_resume()
     st.markdown('</div>', unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True)
@@ -193,7 +193,7 @@ with tabs[1]:
     st.markdown('</div>', unsafe_allow_html=True)
 
 with tabs[2]:
-    st.markdown('<div class="content">', unsafe_allow_html=True)
+    st.markdown('<div class="content">', unsafe_allow_html=True)""")
     
     st.header("Featured Projects")
     st.subheader("Project 1: Route Optimizer for the Transport Sector")
@@ -222,7 +222,7 @@ This project demonstrates how AI and algorithmic optimization can be applied to 
     st.markdown("[Live Demo](https://github.com/Serzariax/RouteOptimizer)")
     st.subheader("Project 2: Sentiment Analysis Dashboard")
     st.write("""
-        The Sentiment Analysis Dashboard is a data driven web application that analyzes and visualizes public opinions, emotions, and attitudes expressed in text data—such as social media posts, customer reviews, or survey responses. It applies Natural Language Processing (NLP) and machine learning techniques to classify text into sentiment categories (positive, negative, neutral) and presents results through an interactive dashboard.
+        The Sentiment Analysis Dashboard is a data driven web application that analyzes and visualizes public opinions, emotions, and attitudes expressed in text data such as social media posts, customer reviews, or survey responses. It applies Natural Language Processing (NLP) and machine learning techniques to classify text into sentiment categories (positive, negative, neutral) and presents results through an interactive dashboard.
 
 The project was designed to help organizations monitor public perception, track brand reputation, and gain actionable insights from large volumes of unstructured text data.
 
@@ -242,11 +242,11 @@ Tech Stack:
 Python, Streamlit (for the dashboard interface), Pandas, Matplotlib / Plotly for visualization, and NLP libraries such as NLTK, spaCy, or Hugging Face Transformers.
 
 Impact:
-The dashboard provides an intuitive way to transform raw text data into meaningful business intelligence. It enables decision-makers to understand customer sentiment in real-time and adjust strategies accordingly — whether for marketing, product development, or crisis management.""")
+The dashboard provides an intuitive way to transform raw text data into meaningful business intelligence. It enables decision makers to understand customer sentiment in real-time and adjust strategies accordingly  whether for marketing, product development, or crisis management.""")
     st.markdown("[Live Demo](https://github.com/Serzariax/Sentiment-Analysis-Dashboard)")
     st.subheader("Project 3: AI Resume Builder")
     st.write("""
-        The AI Resume Builder is an intelligent web application that automates the process of creating professional, tailored resumes using artificial intelligence and natural language processing (NLP). It helps users generate, format, and customize resumes based on their skills, experience, and career goals — eliminating the need for manual editing and design.
+        The AI Resume Builder is an intelligent web application that automates the process of creating professional, tailored resumes using artificial intelligence and natural language processing (NLP). It helps users generate, format, and customize resumes based on their skills, experience, and career goals eliminating the need for manual editing and design.
 
 The system analyzes user input (such as job titles, achievements, or keywords) and uses machine learning models to recommend strong phrasing, highlight relevant skills, and ensure that the resume aligns with ATS (Applicant Tracking System) standards. It can also generate resumes in multiple formats like PDF, DOCX, and Markdown, complete with a clean, modern layout.
 
@@ -266,7 +266,7 @@ Tech Stack:
 Python, Streamlit (for the user interface), OpenAI / NLP APIs for text generation, Pandas for data handling, and libraries like python-docx and fpdf for document creation.
 
 Impact:
-The project demonstrates how AI can simplify and enhance the job application process by helping users craft compelling, professional resumes in minutes. It bridges the gap between automation and personalization — empowering users to focus on showcasing their potential rather than formatting documents.""")
+The project demonstrates how AI can simplify and enhance the job application process by helping users craft compelling, professional resumes in minutes. It bridges the gap between automation and personalization empowering users to focus on showcasing their potential rather than formatting documents.""")
     st.markdown("[Live Demo](https://five-panel-19326201.figma.site/)")
     st.markdown('</div>', unsafe_allow_html=True)
 
