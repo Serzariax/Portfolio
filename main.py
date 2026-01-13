@@ -186,12 +186,10 @@ with tabs[1]:
     
     st.header("About Me")
     st.write("""
-        I am Xolela Solomon, a dedicated AI/ML professional and recent graduate of the CAPACITI Tech Career Accelerator, where I honed my skills in machine learning, data science, and software development. With a passion for leveraging advanced algorithms to solve real-world problems, I have developed a strong foundation in Python, TensorFlow, and PyTorch through hands-on bootcamp projects. My journey has been shaped by a commitment to innovation and continuous learning, driving me to explore cutting-edge technologies in artificial intelligence.
+       I am Xolela Solomon, a dedicated technology professional and recent graduate of the CAPACITI Tech Career Accelerator, where I developed strong skills in machine learning, data science, software development, and foundational cybersecurity principles. With a passion for building intelligent and secure systems, I have gained hands-on experience in Python, TensorFlow, and PyTorch through practical bootcamp projects. My journey is driven by continuous learning, innovation, and a commitment to leveraging AI to strengthen cybersecurity solutions
 
-        **Career Objectives**: My goal is to secure an AI/ML Engineer role where I can design, develop, and deploy machine learning models to optimize business processes and deliver data-driven solutions. I aim to contribute to projects that address challenges in industries such as healthcare, finance, or technology, while advancing my expertise in deep learning and natural language processing.
-
-        **Personal Branding Statement**: I am an innovative problem-solver with a unique ability to transform complex data into actionable machine learning insights, delivering scalable and impactful AI solutions.
-    """)
+        **Career Objectives**: My goal is to secure a role in cybersecurity, where I can apply artificial intelligence and machine learning techniques to enhance threat detection, vulnerability analysis, fraud prevention, and incident response. I aim to contribute to securing digital infrastructure across industries such as healthcare, finance, and technology, while continuously advancing my expertise in cybersecurity operations, secure systems design, and AI-driven security solutions.
+        **Personal Branding Statement**: I am an innovative problem-solver who transforms complex data into secure, scalable, and actionable insights, delivering AI-powered cybersecurity solutions that protect systems, data, and users.
     st.markdown('</div>', unsafe_allow_html=True)
 
 with tabs[2]:
@@ -202,7 +200,7 @@ with tabs[2]:
     st.write("""
        The Route Optimizer is an intelligent system designed to streamline logistics and transportation by calculating the most efficient delivery or travel routes. It leverages algorithms that analyze multiple factors such as distance, traffic conditions, delivery time windows, and vehicle capacity to minimize operational costs and maximize efficiency.
 
-The project was developed for the transport sector, where route planning directly affects fuel consumption, delivery time, and overall resource utilization. The system integrates data from multiple sources and applies optimization techniques — such as Dijkstra’s algorithm, A* search, or genetic algorithms — to produce real-time route recommendations.
+The project was developed for the transport sector, where route planning directly affects fuel consumption, delivery time, and overall resource utilization. The system integrates data from multiple sources and applies optimization techniques such as Dijkstras algorithm, A* search, or genetic algorithms  to produce real-time route recommendations.
 
 Key Features:
 
