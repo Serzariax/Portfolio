@@ -15,9 +15,9 @@ def get_base64_image(image_path):
     return base64.b64encode(image_bytes).decode()
 
 # Load images (CAPACITI logo placeholder; replace with actual logo)
-background_image ="https://images.pexels.com/photos/333850/pexels-photo-333850.jpeg" #"https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg"
+background_image ="assets/images/6193220.jpg" #"https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg"
 image_base64 = get_base64_image(background_image)
-profile_image = "assets/images/profile.jpg" # Use a local image that exists in the workspace
+profile_image = "assets/images/Xolela Solomon.jpg" # Use a local image that exists in the workspace
 profile_image_base64 = get_base64_image(profile_image)#image_pro_base64 = get_base64_image(profile_image)
 # Define CAPACITI-inspired professional color palette
 st.markdown(f"""
@@ -111,7 +111,7 @@ st.markdown(f"""
         height: 250px;
         border: 5px solid var(--silver-lake-blue);
         box-shadow: 0 0 10px rgba(119, 141, 169, 0.3);
-        animation: rotate 20s linear infinite;
+        
     }}
     @keyframes rotate {{
         from {{ transform: rotate(0deg); }}
