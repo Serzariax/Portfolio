@@ -194,7 +194,7 @@ with tabs[1]:
     st.markdown('</div>', unsafe_allow_html=True)
 
 with tabs[2]:
-    st.header("🚀 Featured Projects")
+    st.header(" Featured Projects")
     st.write(
         "A selection of projects demonstrating my expertise in AI, machine learning, cybersecurity "
     )
@@ -204,7 +204,7 @@ with tabs[2]:
         col1, col2 = st.columns([3, 1])
 
         with col1:
-            st.subheader("📍 Route Optimizer for the Transport Sector")
+            st.subheader(" Route Optimizer for the Transport Sector")
             st.write(
                 "An intelligent route optimization system designed to improve logistics efficiency "
                 "by calculating optimal delivery paths based on distance, traffic conditions, time "
