@@ -222,7 +222,7 @@ This project demonstrates how AI and algorithmic optimization can be applied to 
     st.markdown("[Live Demo](https://github.com/Serzariax/RouteOptimizer)")
     st.subheader("Project 2: Sentiment Analysis Dashboard")
     st.write("""
-        The Sentiment Analysis Dashboard is a data-driven web application that analyzes and visualizes public opinions, emotions, and attitudes expressed in text data—such as social media posts, customer reviews, or survey responses. It applies Natural Language Processing (NLP) and machine learning techniques to classify text into sentiment categories (positive, negative, neutral) and presents results through an interactive dashboard.
+        The Sentiment Analysis Dashboard is a data driven web application that analyzes and visualizes public opinions, emotions, and attitudes expressed in text data—such as social media posts, customer reviews, or survey responses. It applies Natural Language Processing (NLP) and machine learning techniques to classify text into sentiment categories (positive, negative, neutral) and presents results through an interactive dashboard.
 
 The project was designed to help organizations monitor public perception, track brand reputation, and gain actionable insights from large volumes of unstructured text data.
 
