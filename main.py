@@ -346,11 +346,11 @@ with tabs[4]:
 
     with col2:
         st.subheader("💻 GitHub")
-        st.markdown("[Serzariax](https://github.com/Serzariax)")
+        st.markdown("[Xolela Solomon](https://github.com/Serzariax)")
 
     with col3:
         st.subheader("📧 Email")
-        st.markdown("[xolela.solomon@capaciti.org.za](mailto:xolela.solomon@capaciti.org.za)")
+        st.markdown("[Xolela Solomon](mailto:xolela.solomon@capaciti.org.za)")
 
 
 # Footer
