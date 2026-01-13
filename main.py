@@ -186,14 +186,15 @@ with tabs[1]:
     
     st.header("About Me")
     st.write("""
-       I am Xolela Solomon, a dedicated technology professional and recent graduate of the CAPACITI Tech Career Accelerator, where I developed strong skills in machine learning, data science, software development, and foundational cybersecurity principles. With a passion for building intelligent and secure systems, I have gained hands-on experience in Python, TensorFlow, and PyTorch through practical bootcamp projects. My journey is driven by continuous learning, innovation, and a commitment to leveraging AI to strengthen cybersecurity solutions
-
-        **Career Objectives**: My goal is to secure a role in cybersecurity, where I can apply artificial intelligence and machine learning techniques to enhance threat detection, vulnerability analysis, fraud prevention, and incident response. I aim to contribute to securing digital infrastructure across industries such as healthcare, finance, and technology, while continuously advancing my expertise in cybersecurity operations, secure systems design, and AI-driven security solutions.
-        **Personal Branding Statement**: I am an innovative problem-solver who transforms complex data into secure, scalable, and actionable insights, delivering AI-powered cybersecurity solutions that protect systems, data, and users.
+       I am Xolela Solomon, a dedicated technology professional and recent graduate of the CAPACITI Tech Career Accelerator, where I developed strong skills in machine learning, data science, software development, and foundational cybersecurity principles. With a passion for building intelligent and secure systems, I have gained hands-on experience in Python, TensorFlow, and PyTorch through practical bootcamp projects. My journey is driven by continuous learning, innovation, and a commitment to leveraging AI to strengthen cybersecurity solutions.
+        """)
+    st.write("""**Career Objectives**: My goal is to secure a role in cybersecurity, where I can apply artificial intelligence and machine learning techniques to enhance threat detection, vulnerability analysis, fraud prevention, and incident response. I aim to contribute to securing digital infrastructure across industries such as healthcare, finance, and technology, while continuously advancing my expertise in cybersecurity operations, secure systems design, and AI-driven security solutions.
+        """)
+    st.write("""**Personal Branding Statement**: I am an innovative problem-solver who transforms complex data into secure, scalable, and actionable insights, delivering AI-powered cybersecurity solutions that protect systems, data, and users.""")
     st.markdown('</div>', unsafe_allow_html=True)
 
 with tabs[2]:
-    st.markdown('<div class="content">', unsafe_allow_html=True)""")
+    st.markdown('<div class="content">', unsafe_allow_html=True)
     
     st.header("Featured Projects")
     st.subheader("Project 1: Route Optimizer for the Transport Sector")
@@ -271,64 +272,86 @@ The project demonstrates how AI can simplify and enhance the job application pro
     st.markdown('</div>', unsafe_allow_html=True)
 
 with tabs[3]:
-    st.markdown('<div class="content">', unsafe_allow_html=True)
-    
-    st.header("Technical Skills")
-    skills = [
-"Programming Languages: Python, JavaScript, C++, SQL, Bash, PowerShell",
+    st.header(" Technical Skills")
 
-"Web Development: HTML5, CSS3, React, Node.js, Streamlit, Flask, RESTful APIs",
+    col1, col2, col3 = st.columns(3)
 
-"AI & Machine Learning: TensorFlow, PyTorch, Scikit-learn, OpenAI API, NLP, Deep Learning",
+    with col1:
+        st.subheader("Programming Languages")
+        st.markdown("""
+        - Python  
+        - JavaScript  
+        - PHP  
+        - SQL  
+        - Bash & PowerShell
+        """)
 
-"Data Analysis & Visualization: Pandas, NumPy, Matplotlib, Plotly, Power BI",
+        st.subheader("Databases")
+        st.markdown("""
+        - MySQL  
+        - MongoDB  
+        - Firebase
+        """)
 
-"Database Management: MySQL, PostgreSQL, MongoDB, Firebase",
+    with col2:
+        st.subheader("Web & Backend Development")
+        st.markdown("""
+        - HTML5, CSS3  
+        - React, Node.js  
+        - Streamlit 
+        - RESTful APIs
+        """)
 
-"Cloud & DevOps: AWS, Azure, Docker, GitHub Actions, CI/CD pipelines",
+        st.subheader("Development Practices")
+        st.markdown("""
+        - Git & GitHub  
+        - API Integration  
+        - Documentation & Testing  
+        - Performance Optimization
+        """)
 
-"Cybersecurity Tools: Wireshark, Metasploit, Burp Suite, Nmap, Splunk, Nessus, OSINT Frameworks",
+    with col3:
+        st.subheader("AI & Machine Learning")
+        st.markdown(""" 
+        - Scikit-learn  
+        - NLP & Deep Learning  
+        - OpenAI API  
+        - Prompt Engineering
+        """)
 
-"Operating Systems: Windows, Linux (Ubuntu, Kali), macOS",
-
-"Automation & Scripting: Shell scripting, Python automation, Ansible basics",
-
-"Version Control: Git, GitHub, GitLab",
-
-"Core Competencies",
-
-"Secure software design and vulnerability assessment",
-
-"AI model development and prompt engineering",
-
-"Data-driven decision making and model optimization",
-
-"Full-stack application development and deployment",
-
-"Network monitoring, risk analysis, and penetration testing",
-
-"API integration and backend system design",
-
-"Project planning and agile development",
-
-"Analytical problem-solving and debugging",
-
-"Documentation, testing, and performance optimization",
-
-"Collaboration across multidisciplinary tech teams"
-    ]
-    for skill in skills:
-        st.write(f"- {skill}")
-    st.markdown('</div>', unsafe_allow_html=True)
+        st.subheader("Cybersecurity")
+        st.markdown("""
+        - Wireshark  
+        - Nmap  
+        - Metasploit  
+        - OSINT Frameworks  
+        - Network Monitoring  
+        - Risk Analysis  
+        - Penetration Testing
+        """)
 
 with tabs[4]:
-    st.markdown('<div class="content">', unsafe_allow_html=True)
-   
-    st.header("Contact")
-    st.write("LinkedIn: [Xolela Solomon](https://linkedin.com/in/xolelasolomon)")
-    st.write("GitHub: [xolelasolomon](https://github.com/Serzariax)")
-    st.write("Email: xolela.solomon@example.com")
-    st.markdown('</div>', unsafe_allow_html=True)
+    st.header(" Contact")
+
+    st.write(
+        "I’m open to opportunities, collaborations, and professional networking. "
+        "Feel free to reach out through any of the channels below:"
+    )
+
+    col1, col2, col3 = st.columns(3)
+
+    with col1:
+        st.subheader("🔗 LinkedIn")
+        st.markdown("[Xolela Solomon](https://linkedin.com/in/xolelasolomon)")
+
+    with col2:
+        st.subheader("💻 GitHub")
+        st.markdown("[Serzariax](https://github.com/Serzariax)")
+
+    with col3:
+        st.subheader("📧 Email")
+        st.markdown("[xolela.solomon@capaciti.org.za](mailto:xolela.solomon@capaciti.org.za)")
+
 
 # Footer
 st.markdown('<div style="text-align: center; color: var(--platinum); padding: 10px;">© 2025 Xolela Solomon. All rights reserved.</div>', unsafe_allow_html=True)
